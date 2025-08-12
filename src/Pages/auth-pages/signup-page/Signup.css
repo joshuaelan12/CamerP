@@ -1,0 +1,71 @@
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.signup-card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    border: 1px solid #fcd19e;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+
+}
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 7px;
+
+}
+
+.signup-title {
+    font-size: x-large;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.sub-title {
+    font-size: 0.7;
+    color: #333;
+    padding-top: 0;
+    margin-top: 0;
+
+}
+
+input {
+    border: 1px solid #fcd19e;
+    border-radius: 4px;
+    height: 35px;
+    background-color: #fff3e6;
+    padding-left: 10px;
+
+}
+
+.signup-btn {
+    height: 35px;
+    border: 1px solid #fcd19e;
+    border-radius: 4px;
+    background-color: #ff8c00;
+    font-size: large;
+
+}
+
+.signup-btn:hover {
+    background-color: #fcd19e;
+    color: #ff8c00;
+}
+
+.owns-account {
+    text-align: center;
+    color: #333;
+    font-size: small;
+
+}
