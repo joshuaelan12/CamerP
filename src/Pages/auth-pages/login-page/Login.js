@@ -2,6 +2,8 @@ import React from 'react'
 
 import './Login.css'
 
+import { Link } from 'react-router-dom'
+
 
 const Login = () => {
   return (
@@ -17,7 +19,7 @@ const Login = () => {
                 <label htmlFor='password'>Password</label>
                 <input className='input' name='password'  id='password' required/>
 
-                <button className='signin-btn'>Sign in</button>
+                <Link to='/sidebar' className='signin-btn'>Sign in</Link>
 
             </form>
 

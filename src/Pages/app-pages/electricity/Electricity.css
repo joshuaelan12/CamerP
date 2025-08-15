@@ -1,0 +1,49 @@
+.electricity {
+    display: flex;
+    
+}
+
+.electricity-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 1;
+}
+
+.electricity-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex: 1;
+    gap: 10px;
+    text-align: left;
+    padding: 20px;
+}
+
+.pay-btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#f7bb72;
+    border: 1px solid #fcd19e;
+}
+
+@media (max-width: 768px) {
+    .toggle-off {
+        display: none;
+    }
+
+    .toggle-on {
+        display: flex;
+    }
+
+
+    .card-sub {
+        max-width: 300px;
+    }
+
+    .sidebar-toggle-button {
+        display: flex;
+    }
+}

@@ -50,11 +50,16 @@ input {
 }
 
 .signup-btn {
-    height: 35px;
+    height: 30px;
     border: 1px solid #fcd19e;
     border-radius: 4px;
     background-color: #ff8c00;
     font-size: large;
+    text-align: center;
+    text-decoration: none;
+    color: #fff3e6;
+
+
 
 }
 

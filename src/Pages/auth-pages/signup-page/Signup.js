@@ -3,6 +3,9 @@ import React from 'react'
 import './Signup.css'
 
 
+import { Link } from 'react-router-dom'
+
+
 const SignUp = () => {
   return (
     <div className='signup-container'>
@@ -21,7 +24,7 @@ const SignUp = () => {
                 <input className='input' name='password'  id='password' required/>
 
 
-                <button className='signup-btn'>Sign Up</button>
+                <Link to={'/login'} className='signup-btn'>Sign Up</Link>
 
             </form>
 
