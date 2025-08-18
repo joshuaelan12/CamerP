@@ -50,7 +50,7 @@ input select option{
 }
 
 .signin-btn {
-    height: 35px;
+    height: 30px;
     border: 1px solid #fcd19e;
     border-radius: 4px;
     background-color: #ff8c00;
@@ -58,6 +58,7 @@ input select option{
     text-align: center;
     text-decoration: none;
     color: #fff3e6;
+    padding-top: 8px;
 
 }
 
