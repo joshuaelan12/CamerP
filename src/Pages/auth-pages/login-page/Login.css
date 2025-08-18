@@ -40,7 +40,7 @@
 
 }
 
-input {
+input select option{
     border: 1px solid #fcd19e;
     border-radius: 4px;
     height: 35px;

@@ -48,7 +48,7 @@ const Sidebar = ({ toggleSideBar}) => {
 
                         <Link to={'/electricity'} className='bill-links'><FaBolt /> Electricity</Link>
                         <Link to={'/tv'} className='bill-links'><FaTint /> Water</Link>
-                        <Link to={'/tv'} className='bill-links'><FaTv /> TV</Link>
+                        <Link className='bill-links'><FaTv /> TV</Link>
                         <Link className='bill-links'><FiWifi /> Internet</Link>
 
                      </div>

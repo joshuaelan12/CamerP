@@ -1,6 +1,52 @@
+.tv {
+    display: flex;
+
+}
 .tv-content {
     display: flex;
     flex-direction: column;
     flex: 1;
+    
+}
+
+.tv-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.tv-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    padding: 10px;
+    text-align: left;
+}
+.select-package {
+    border: 1px solid #fcd19e;
+    border-radius: 4px;
+    height: 35px;
+    background-color: #fff3e6;
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .toggle-off {
+        display: none;
+    }
+
+    .toggle-on {
+        display: flex;
+    }
+
+
+    .card-sub {
+        max-width: 300px;
+    }
+
+    .sidebar-toggle-button {
+        display: flex;
+    }
     
 }

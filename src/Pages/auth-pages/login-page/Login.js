@@ -19,7 +19,7 @@ const Login = () => {
                 <label htmlFor='password'>Password</label>
                 <input className='input' name='password'  id='password' required/>
 
-                <Link to='/sidebar' className='signin-btn'>Sign in</Link>
+                <Link to='/dashboard' className='signin-btn'>Sign in</Link>
 
             </form>
 
