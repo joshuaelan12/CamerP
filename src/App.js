@@ -8,6 +8,7 @@ import Sidebar from './Pages/app-pages/side-bar/Sidebar';
 import Dashboard from './Pages/app-pages/dashboard/Dashboard';
 import Electricity from './Pages/app-pages/electricity/Electricity';
 import Tv from './Pages/app-pages/tv/Tv';
+import Water from './Pages/app-pages/water/Water.js';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
         <Route path='/sidebar' element={<Sidebar />} />
         <Route path='/dashboard' element={<Dashboard/>} />
         <Route path='/electricity' element={<Electricity/>} />
-        <Route path='tv' element={<Tv />} />
+        <Route path='/tv' element={<Tv />} />
+        <Route path='/water' element={<Water />} />
       </Routes>
     </div>
     </Router>

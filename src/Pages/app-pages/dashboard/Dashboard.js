@@ -4,6 +4,7 @@ import Sidebar from '../side-bar/Sidebar'
 import './Dashboard.css'
 import { FaBolt, FaPhone, FaTint, FaToggleOff, FaWifi } from 'react-icons/fa'
 import { FiTv } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 const Dashboard = () => {
 
@@ -17,7 +18,7 @@ const Dashboard = () => {
 
 
   return (
-    <div className='dashboard'>
+    <div className='dashboard' >
         <span className={toggleSideBar ? 'toggle-on' : 'toggle-off'}>
         <Sidebar isOpen={toggleSideBar} toggleSideBar={handleToggleSideBar}/>
         </span>
@@ -31,7 +32,7 @@ const Dashboard = () => {
             </div>
             <div className='dasboard-card-section'>
 
-              <div className='dashboard-card'>
+              <Link className='dashboard-card ' to={'/electricity'}>
                 
                 <div  className='card-header'>
                   <div className='card-title'>
@@ -42,9 +43,9 @@ const Dashboard = () => {
                 </div>
                 <p className='subtitle card-sub'>Click here to pay your electricity 
                   bill or top-up.</p>
-              </div>
+              </Link>
 
-              <div className='dashboard-card'>
+              <Link  to={'/water'} className='dashboard-card'>
                 
                 <div  className='card-header'>
                   <div className='card-title'>
@@ -55,9 +56,9 @@ const Dashboard = () => {
                 </div>
                 <p className='subtitle card-sub'>Click here to pay your water 
                   bill or top-up.</p>
-              </div>
+              </Link>
 
-              <div className='dashboard-card'>
+              <Link to={'/tv'} className='dashboard-card'>
                 
                 <div  className='card-header'>
                   <div className='card-title'>
@@ -68,9 +69,9 @@ const Dashboard = () => {
                 </div>
                 <p className='subtitle card-sub'>Click here to pay your tv 
                   bill or top-up.</p>
-              </div>
+              </Link>
 
-              <div className='dashboard-card'>
+              <Link className='dashboard-card'>
                 
                 <div  className='card-header'>
                   <div className='card-title'>
@@ -81,9 +82,9 @@ const Dashboard = () => {
                 </div>
                 <p className='subtitle card-sub'>Click here to pay your internet 
                   bill or top-up.</p>
-              </div>
+              </Link>
 
-              <div className='dashboard-card'>
+              <Link className='dashboard-card'>
                 
                 <div  className='card-header'>
                   <div className='card-title'>
@@ -94,7 +95,7 @@ const Dashboard = () => {
                 </div>
                 <p className='subtitle card-sub'>Click here to pay your airtime & data 
                   bill or top-up.</p>
-              </div>      
+              </Link>      
 
             </div>
 

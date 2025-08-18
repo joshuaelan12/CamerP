@@ -47,6 +47,9 @@
     flex-direction: column;
 }
 
+
+
+
 .bill-links {
     height: 25px;
     width: 250px;
@@ -58,6 +61,12 @@
     padding-top: 5px;
     border-left: 1px solid #e0ad6d;
 }
+
+.bill-links:hover {
+    background-color: #f3a341;
+}
+
+
 
 .bill-pages {
     display: flex;
@@ -88,4 +97,11 @@
     .none1 {
         display: none;
     }
+}
+
+.sidebar-link:hover {
+    background-color: #f3a341;
+}
+.bills-dropdown:hover {
+    background-color: #fce0be;
 }

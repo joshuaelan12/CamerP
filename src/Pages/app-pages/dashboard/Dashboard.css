@@ -44,6 +44,13 @@
     box-shadow: 7px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 0 15px;
     box-sizing: content-box;
+    text-decoration: none;
+    color: black;
+}
+
+.dashboard-card:hover {
+    background-color: #fdddb5;
+    cursor: pointer;
 }
 
 .card-header {

@@ -13,6 +13,9 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+    border: 1px solid #fcd19e;
+    border-radius: 8px;
+    margin: 20px;
 }
 
 .tv-form {

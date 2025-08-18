@@ -24,6 +24,8 @@ const Electricity = () => {
               <div className='sidebar-toggle-button' onClick={handleToggleSideBar}>
               <FaToggleOff size={25} />
               </div>
+
+              <div className='electricity-card'>
               <div className='header'>
                   <h1 className='header-title'>Pay ENEO Electricity Bill</h1>
               </div>
@@ -52,6 +54,7 @@ const Electricity = () => {
 
               </form>
             </div>
+          </div>
       </div>
   )
 }

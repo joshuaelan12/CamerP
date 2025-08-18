@@ -40,24 +40,24 @@ const Sidebar = ({ toggleSideBar}) => {
 
             <div className='sidebar-links'>
 
-                <Link to={'/dashboard'} className='sidebar-link'> <MdDashboard /> Dashboard</Link>
+                <Link to={'/dashboard'} className='sidebar-link' onClick={toggleSideBar}> <MdDashboard /> Dashboard</Link>
                 
                 <div onClick={handleBillsDropdown} className={ billsDropdown ? 'sidebar-link bills-dropdown' : 'sidebar-link' }>
                      <span className='credit-card'><FaCreditCard /> Pay Bills</span>
                      <div className={ billsDropdown ? 'bill-pages' : 'none' } >
 
-                        <Link to={'/electricity'} className='bill-links'><FaBolt /> Electricity</Link>
-                        <Link to={'/tv'} className='bill-links'><FaTint /> Water</Link>
-                        <Link className='bill-links'><FaTv /> TV</Link>
-                        <Link className='bill-links'><FiWifi /> Internet</Link>
+                        <Link to={'/electricity'} className='bill-links' onClick={toggleSideBar}><FaBolt /> Electricity</Link>
+                        <Link to={'/water'} className='bill-links' onClick={toggleSideBar}><FaTint /> Water</Link>
+                        <Link to={'/tv'} className='bill-links' onClick={toggleSideBar}><FaTv /> TV</Link>
+                        <Link className='bill-links' onClick={toggleSideBar}><FiWifi /> Internet</Link>
 
                      </div>
                      
                      </div>
-                <Link className='sidebar-link'> <FaPhone /> Airtime and Data</Link>
-                <Link className='sidebar-link'> <BsClockHistory />Transaction Histoy</Link>
-                <Link className='sidebar-link'> <FaUser /> My Profile</Link>
-                <Link className='sidebar-link'> <MdSupportAgent /> Support</Link>
+                <Link className='sidebar-link' onClick={toggleSideBar}> <FaPhone /> Airtime and Data</Link>
+                <Link className='sidebar-link' onClick={toggleSideBar}> <BsClockHistory />Transaction History</Link>
+                <Link className='sidebar-link' onClick={toggleSideBar}> <FaUser /> My Profile</Link>
+                <Link className='sidebar-link' onClick={toggleSideBar}> <MdSupportAgent /> Support</Link>
                 
             </div>
 
@@ -66,8 +66,8 @@ const Sidebar = ({ toggleSideBar}) => {
         <div className='sidebar-content2'>
             <div className='action-buttons'>
 
-                <Link className='View-profile-btn sidebar-link'> <FaUser /> View Profile</Link>
-                <Link className='logout-btn sidebar-link'> <FiLogOut /> Logout</Link>
+                <Link className='View-profile-btn sidebar-link' onClick={toggleSideBar}> <FaUser /> View Profile</Link>
+                <Link className='logout-btn sidebar-link' onClick={toggleSideBar}> <FiLogOut /> Logout</Link>
 
 
             </div>
