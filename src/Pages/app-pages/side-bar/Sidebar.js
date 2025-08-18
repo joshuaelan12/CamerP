@@ -67,7 +67,7 @@ const Sidebar = ({ toggleSideBar}) => {
             <div className='action-buttons'>
 
                 <Link className='View-profile-btn sidebar-link' onClick={toggleSideBar}> <FaUser /> View Profile</Link>
-                <Link className='logout-btn sidebar-link' onClick={toggleSideBar}> <FiLogOut /> Logout</Link>
+                <Link to={'/'} className='logout-btn sidebar-link' onClick={toggleSideBar}> <FiLogOut /> Logout</Link>
 
 
             </div>
