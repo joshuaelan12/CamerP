@@ -37,13 +37,12 @@ const Welcome = () => {
             </p>
 
             <img className='welcome-picture' src={logo} alt="logo"></img>
-            <Link to='/signup' className='signup-btn getstarted-btn'>Get Started  <span className='arrow'>→</span></Link>
+            <Link to='/signup' className='signup-btn getstarted-btn'>Get started   →</Link>
 
 </div>
 
 
           
-
         </div>
 
 

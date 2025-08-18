@@ -60,6 +60,7 @@
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
+    height: 50px;
 }
 
 .signup-btn:hover {
@@ -99,8 +100,7 @@
 
 }
 .arrow {
-    font-size: 20px;
-    padding-left: 5px;
+    font-size: 10px;
 }
 .getstarted-btn {
     font-size: 18px;
