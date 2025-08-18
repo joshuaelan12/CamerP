@@ -14,6 +14,8 @@
     
 
 }
+
+
 .logo {
     display: flex;
     align-items: center;
@@ -67,6 +69,16 @@
     background-color: #e67a00;
 }
 
+@media (max-width: 600px) {
+    .welcomeHeader{
+        padding: 24px 10px;
+
+    }
+    .auth-buttons {
+        gap: 1px;
+    }
+    
+}
 .welcome-picture {
     height: 150px;
     width: 150px;
