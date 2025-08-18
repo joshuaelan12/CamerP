@@ -37,6 +37,11 @@
     background-color:#f7bb72;
     border: 1px solid #fcd19e;
 }
+.pay-btn:hover {
+    background-color: #eba95a;
+    border: 1px solid #ec9a36;
+}
+
 
 @media (max-width: 768px) {
     .toggle-off {
