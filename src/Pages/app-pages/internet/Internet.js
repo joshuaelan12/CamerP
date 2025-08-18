@@ -72,8 +72,7 @@ const Internet = () => {
                 <p className='subtitle'>Enter the 9-digit number to be charged (without country code)</p>
 
                 
-                <button className='pay-btn'>Pay Now</button>
-
+                <button className='pay-btn'>Buy Now</button>
                 
               </form>
 

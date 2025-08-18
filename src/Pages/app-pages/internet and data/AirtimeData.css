@@ -1,0 +1,60 @@
+.airtime {
+    display: flex;
+    text-align: left;
+}
+.airtime-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+}
+.sidebar-toggle-button {
+    max-height: 50px;
+}
+
+
+.airtime-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #fcd19e;
+    padding: 10px;
+    margin: 20px 10px;
+    border-radius: 8px;
+    
+    
+}
+
+.airtime-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.select-package {
+    border: 1px solid #fcd19e;
+    border-radius: 4px;
+    height: 35px;
+    background-color: #fff3e6;
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .toggle-off {
+        display: none;
+    }
+
+    .toggle-on {
+        display: flex;
+    }
+
+
+    .card-sub {
+        max-width: 300px;
+    }
+
+    .sidebar-toggle-button {
+        display: flex;
+    }
+    
+}
