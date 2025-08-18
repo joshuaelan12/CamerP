@@ -54,7 +54,7 @@ const Sidebar = ({ toggleSideBar}) => {
                      </div>
                      
                      </div>
-                <Link to={'/airtime-data'} className='sidebar-link' onClick={toggleSideBar}> <FaPhone /> Airtime and Data</Link>
+                <Link to={'/airtime-data'} className='sidebar-link' onClick={toggleSideBar}> <FaPhone />Buy Airtime </Link>
                 <Link className='sidebar-link' onClick={toggleSideBar}> <BsClockHistory />Transaction History</Link>
                 <Link className='sidebar-link' onClick={toggleSideBar}> <FaUser /> My Profile</Link>
                 <Link className='sidebar-link' onClick={toggleSideBar}> <MdSupportAgent /> Support</Link>

@@ -89,12 +89,11 @@ const Dashboard = () => {
                 <div  className='card-header'>
                   <div className='card-title'>
                     <FaPhone className='dashboard-icons' size={25}/>
-                    <h2>Airtime & Data</h2>
+                    <h2>Airtime </h2>
                   </div>
                   <div className='arrow'>→</div>
                 </div>
-                <p className='subtitle card-sub'>Click here to pay your airtime & data 
-                  bill or top-up.</p>
+                <p className='subtitle card-sub'>Click here to top up your airtime.</p>
               </Link>      
 
             </div>
