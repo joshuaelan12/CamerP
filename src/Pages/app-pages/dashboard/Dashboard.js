@@ -71,7 +71,7 @@ const Dashboard = () => {
                   bill or top-up.</p>
               </Link>
 
-              <Link className='dashboard-card'>
+              <Link to='/internet' className='dashboard-card'>
                 
                 <div  className='card-header'>
                   <div className='card-title'>
@@ -84,7 +84,7 @@ const Dashboard = () => {
                   bill or top-up.</p>
               </Link>
 
-              <Link className='dashboard-card'>
+              <Link to={'/airtime-data'} className='dashboard-card'>
                 
                 <div  className='card-header'>
                   <div className='card-title'>

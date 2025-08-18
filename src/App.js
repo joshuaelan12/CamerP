@@ -8,7 +8,9 @@ import Sidebar from './Pages/app-pages/side-bar/Sidebar';
 import Dashboard from './Pages/app-pages/dashboard/Dashboard';
 import Electricity from './Pages/app-pages/electricity/Electricity';
 import Tv from './Pages/app-pages/tv/Tv';
-import Water from './Pages/app-pages/water/Water.js';
+import Water from './Pages/app-pages/water/Water';
+import AirtimeData from './Pages/app-pages/internet and data/AirtimeData';
+import Internet from './Pages/app-pages/internet/Internet';
 
 
 function App() {
@@ -24,6 +26,10 @@ function App() {
         <Route path='/electricity' element={<Electricity/>} />
         <Route path='/tv' element={<Tv />} />
         <Route path='/water' element={<Water />} />
+        <Route path='/airtime-data' element={<AirtimeData />} />
+        <Route path='/internet' element={<Internet />} />
+
+
       </Routes>
     </div>
     </Router>
